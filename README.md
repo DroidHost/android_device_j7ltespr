@@ -1,8 +1,8 @@
-# Device tree for Samsung On7 pro SM-G600FY
+# Device tree for Samsung J7 SM-J700P
 
 ### Specs (Physically inspected):
   - CPU: Qualcomm MSM8216 Snapdragon 410, 3000 MHz
-  - Codename: o7prolte
+  - Codename: j7ltespr
   - Display Panel:
   - Display Resolution: 1280x720
   - EMMC:

@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(TARGET_DEVICE),o7prolte)
+ifeq ($(TARGET_DEVICE),j7ltespr)
 
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)

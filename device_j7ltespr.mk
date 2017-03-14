@@ -1,14 +1,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Also get non-open-source specific aspects if available
-$(call inherit-product, vendor/samsung/o7prolte/o7prolte-vendor.mk)
+$(call inherit-product, vendor/samsung/j7ltespr/j7ltespr-vendor.mk)
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Common overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/o7prolte/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/j7ltespr/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -121,9 +121,9 @@ PRODUCT_PACKAGES += \
     libtinyxml
 
 # Ril
-PRODUCT_COPY_FILES += device/samsung/o7prolte/configs/data/dsi_config.xml:system/etc/data/dsi_config.xml
-PRODUCT_COPY_FILES += device/samsung/o7prolte/configs/data/netmgr_config.xml:system/etc/data/netmgr_config.xml
-PRODUCT_COPY_FILES += device/samsung/o7prolte/configs/data/qmi_config.xml:system/etc/data/qmi_config.xml 
+PRODUCT_COPY_FILES += device/samsung/j7ltespr/configs/data/dsi_config.xml:system/etc/data/dsi_config.xml
+PRODUCT_COPY_FILES += device/samsung/j7ltespr/configs/data/netmgr_config.xml:system/etc/data/netmgr_config.xml
+PRODUCT_COPY_FILES += device/samsung/j7ltespr/configs/data/qmi_config.xml:system/etc/data/qmi_config.xml 
 
 # Power
 PRODUCT_PACKAGES += \
@@ -254,7 +254,7 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := o7prolte
-PRODUCT_NAME := cm_o7prolte
+PRODUCT_DEVICE := j7ltespr
+PRODUCT_NAME := cm_j7ltespr
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung

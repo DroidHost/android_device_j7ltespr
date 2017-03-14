@@ -1,4 +1,4 @@
-ifeq ($(TARGET_DEVICE),o7prolte)
+ifeq ($(TARGET_DEVICE),j7ltespr)
 
 ifeq ($(TARGET_PROVIDES_CAMERA_HAL),true)
 
